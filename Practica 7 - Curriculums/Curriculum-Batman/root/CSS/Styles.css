@@ -1,0 +1,64 @@
+img{
+    display:block;
+    margin:auto;
+}
+
+#Titulo_principal{
+    background-color: rgb(189, 182, 182);
+    text-align:center;
+    color: rgb(59, 127, 129);
+}
+
+#Datos_Personales{
+    background-color: rgb(189, 182, 182);
+    color: rgb(59, 127, 129);
+}
+
+#Formacion_Academica{
+    background-color: rgb(189, 182, 182);
+    color: rgb(59, 127, 129);
+}
+
+#Experiencia_Laboral{
+    background-color: rgb(189, 182, 182);
+    color: rgb(59, 127, 129);
+}
+
+.Nombre_Bolden{
+    font-weight: bold;
+}
+
+.Fecha_Bolden{
+    font-weight: bold;
+}
+
+.Lugar_Bolden{
+    font-weight: bold;
+}
+.fecha_formacU{
+    font-weight: bold;
+}
+
+.fecha_formacEs{
+    font-weight: bold;
+}
+
+.Fechas_Exp{
+    font-weight: bold;
+}
+.Fecha_cazavillanos{
+    font-weight: bold;
+}
+.Fecha_superheroes{
+    font-weight: bold;
+}
+#footer{
+    display: flex;
+    justify-content:space-evenly;
+    background: #546f97;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    color:beige;
+}
