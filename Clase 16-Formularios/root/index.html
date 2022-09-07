@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <section><p>20% de descuento en todos los productos!</p></section>
+        <section><img src="./img/Logo.png" alt="logotienda"><h1>Nombre tienda</h1></section>
+        <nav>
+            <ul>
+                <li>Contacto</li>
+                <li>Registrarme</li>
+                <li>Ingresar</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Añadi tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+            <form action="compra.html" method="get">
+                <div>
+                    <label for="nombre">*Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escriba aquí">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+                </div>
+                <div>
+                    <label for="especie">*Especie</label>
+                    <select name="especie" id="especie">
+                        <optgroup label="Especies">
+<option value="" selected disabled>Seleccione la especie</option>
+ 
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                            <option value="E">E</option>
+                        </optgroup>
+                    </select>
+                    <label for="archivo">Agregar Foto</label>
+                    <input type="file" name="archivo" id="archivo">
+                    <label for="poderes">Poderes</label>
+                    <input type="checkbox" name="poderes" id="poderes">Volar
+                    <input type="checkbox" name="poderes" id="poderes">Superinteligencia
+                    <input type="checkbox" name="poderes" id="poderes">Vista de rayo laser
+                    <input type="checkbox" name="poderes" id="poderes">Billetera Gorda
+                    <label for="personaje">Tipo de personaje</label>
+                    <input type="radio" name="personaje" id="personaje">Héroe / Heroina
+                    <input type="radio" name="personaje" id="personaje">Villano / Villana
+                </div>
+                <button type="submit"> Añadir</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+   
+</body>
+</html>
